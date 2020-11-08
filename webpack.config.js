@@ -24,6 +24,7 @@ module.exports = {
               cacheDirectory: true,
             },
           },
+          'sass-loader',
         ],
       },
     ],

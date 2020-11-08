@@ -1,20 +1,22 @@
 {
-  "name": "boiler",
+  "name": "julian_portfolio",
   "version": "1.0.0",
-  "description": "",
+  "description": "Portfolio",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server/server.js",
-    "build": "webpack"
+    "build": "webpack",
+    "sass": "node-sass -w sass/ -o css/ --recursive"
   },
   "keywords": [],
-  "author": "",
+  "author": "Julian M",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.19.2",
     "express": "^4.17.1",
     "mysql": "^2.18.1",
+    "node-sass": "^5.0.0",
     "path": "^0.12.7",
     "react": "^16.13.0",
     "react-dom": "^16.13.0"
@@ -26,7 +28,9 @@
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
     "nodemon": "^2.0.4",
-    "webpack": "^4.42.0",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.0.5",
+    "webpack": "^4.44.2",
     "webpack-cli": "^3.3.11"
   }
 }
