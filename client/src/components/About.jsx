@@ -5,6 +5,7 @@ export default function(){
       <>
       <div id = "about">
       About Me
+      <img src="./images/Cover_Image.png"/>
       </div>
       </>
     )
