@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from 'react';
 import ReactDOM from 'react-dom';
-import About from './components/About'
+import About from './components/About';
+import Info from './components/Info';
+import Projects from './components/Projects';
 
 function Index(){
     return(
       <>
-      Hello
+      <div id="top"/>
       <About />
+      <Info />
+      <Projects />
       </>
     )
 }
